@@ -5,6 +5,7 @@ def directors_totals(nds)
   movie_index = 0 
   indtotal = 0
   dir_index = 0
+  result = {}
 
   while dir_index < nds.length do
     while movie_index < nds[dir_index][:movies].length do
@@ -15,7 +16,6 @@ def directors_totals(nds)
     dir_index += 1
     indtotal = 0
   end 
-  result = {
-  }
+  
 
 end

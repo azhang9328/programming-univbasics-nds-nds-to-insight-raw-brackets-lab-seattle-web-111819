@@ -4,6 +4,6 @@ require 'directors_database'
 def directors_totals(nds)
   result = {:random => "dog"}
 
-  puts nds[0][:name]
+  result[nds[0][:name]] = "dog"
 
 end

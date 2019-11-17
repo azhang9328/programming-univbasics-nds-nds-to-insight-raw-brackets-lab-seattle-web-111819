@@ -11,9 +11,10 @@ def directors_totals(nds)
     indtotal = indtotal + nds[dir_index][:movies][movie_index][:worldwide_gross]
     movie_index += 1
     end  
+    result.push(indtotal)
     dir_index += 1
+    indtotal = 0
   end 
-  puts indtotal
   result = {
   }
 

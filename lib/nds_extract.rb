@@ -12,7 +12,7 @@ def directors_totals(nds)
     indtotal = indtotal + nds[dir_index][:movies][movie_index][:worldwide_gross]
     movie_index += 1
     end  
-    nds[dir_index][:name] = indtotal
+    result[nds[dir_index][:name]] = indtotal
     dir_index += 1
     indtotal = 0
   end 

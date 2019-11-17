@@ -5,5 +5,5 @@ def directors_totals(nds)
   result = {:random => "dog"}
 
   result[nds[0][:name]] = "dog"
-
+  puts result
 end

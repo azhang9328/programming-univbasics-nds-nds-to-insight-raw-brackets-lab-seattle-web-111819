@@ -17,4 +17,5 @@ def directors_totals(nds)
     indtotal = 0
   end 
   
+  puts result
 end
